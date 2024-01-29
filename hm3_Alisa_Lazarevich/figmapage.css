@@ -1,0 +1,290 @@
+.stylepage {
+    background-color: aliceblue;
+    width: 832px;
+    height: 1280px;
+
+}
+
+.header {
+    color: #E71717;
+    font-family: Alef;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+
+
+}
+
+.border {
+    border: 3px solid #EC14D6;
+    background: rgba(217, 217, 217, 0.00);
+    width: 120px;
+    height: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.pclass {
+    color: #000;
+    font-family: Times New Roman;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70%;
+
+}
+
+.pclass2 {
+    color: #000;
+    font-family: Times New Roman;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.pclass3 {
+    color: #000;
+    font-family: Times New Roman;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.pclass4 {
+    color: #000;
+    font-family: Times New Roman;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.pclass5 {
+    color: #000;
+    font-family: Alef;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+
+}
+
+.pclass6 {
+    color: #000;
+    font-family: Alef;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.pclass7 {
+    color: #000;
+    font-family: Alef;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+
+
+.distance {
+   margin-left: 45px;
+}
+
+.circle {
+    background-color: #000;
+    border-radius: 100%;
+    width: 46px;
+    height: 43px;
+
+}
+
+.circle2 {
+    background-color: #F40909;
+    border-radius: 100%;
+    width: 46px;
+    height: 43px;
+
+}
+
+.circle3 {
+    background-color: #A09C9C;
+    border-radius: 100%;
+    width: 46px;
+    height: 43px;
+
+}
+
+.circle4 {
+    background-color: #3C3535;
+    border-radius: 100%;
+    width: 46px;
+    height: 43px;
+
+}
+
+.circle5 {
+    background-color: black;
+    border-radius: 100%;
+    width: 46px;
+    height: 43px;
+
+}
+
+
+
+.Icons2 {
+    background: url("icons8-лампочка-96.png");
+
+    width: 35px;
+    height: 33px;
+    background-repeat: no-repeat;
+    background-size: 35px 35px;
+}
+
+.Icons3 {
+    background: url("icons8-клавиатура-96.png");
+
+    width: 35px;
+    height: 29px;
+    background-repeat: no-repeat;
+    background-size: 35px 35px;
+}
+
+.Icons4 {
+    background: url("icons8-вспышка-96.png");
+
+    width: 35px;
+    height: 29px;
+    background-repeat: no-repeat;
+    background-size: 35px 35px;
+
+
+}
+
+.image-container {}
+
+.iconsf {
+    background-image: url("icons8-facebook-24.png");
+    width: 17px;
+    height: 17px;
+    background-repeat: no-repeat;
+    background-size: 17px 17px;
+}
+
+.iconst {
+    background-image: url("icons8-twitter-24.png");
+
+    width: 17px;
+    height: 17px;
+    background-repeat: no-repeat;
+    background-size: 17px 17px;
+}
+
+.iconsg {
+    background-image: url("icons8-google-24.png");
+
+    width: 17px;
+    height: 17px;
+    background-repeat: no-repeat;
+    background-size: 17px 17px;
+}
+
+.iconsp {
+    background-image: url("icons8-pinterest-24.png");
+
+    width: 17px;
+    height: 17px;
+    background-repeat: no-repeat;
+    background-size: 17px 17px;
+}
+
+.iconsi {
+    background-image: url("icons8-instagram-24.png");
+
+    width: 17px;
+    height: 17px;
+    background-repeat: no-repeat;
+    background-size: 17px 17px;
+}
+
+.iconss {
+    background-image: url("icons8-stumbleupon-24.png");
+
+    width: 17px;
+    height: 17px;
+    background-repeat: no-repeat;
+    background-size: 17px 17px;
+}
+
+.iconsy {
+    background-image: url("icons8-youtube-live-24.png");
+
+    width: 17px;
+    height: 17px;
+    background-repeat: no-repeat;
+    background-size: 17px 17px;
+}
+
+
+.border2 {
+    background-color: #3C3535;
+    width: 745px;
+    height: 109px;
+    background-size: 745px 109px;
+    border: 1px solid #000;
+
+
+}
+
+.border3 {
+    background: #3C3535;
+    width: 137px;
+    height: 36px;
+    border: 1px solid #FFF;
+    margin-left: 3%;
+    margin-top: 5%;
+
+}
+
+.download {
+    color: #FFF;
+
+    padding-left: 25%;
+    margin-bottom: 25%;
+}
+
+.line1 {
+    background-color: #FFF;
+    width: 64px;
+    height: 1px;
+    background-size: 64px 1px;
+    margin-top: 25px;
+    margin-left: 50px; 
+  
+    
+
+  
+
+}
+
+.line2 { background-color:#E71717;
+    width: 64px;
+    height: 1px;
+    background-size: 64px 1px;
+    margin-top: 50px;
+    margin-right:  40px;
+
+   }

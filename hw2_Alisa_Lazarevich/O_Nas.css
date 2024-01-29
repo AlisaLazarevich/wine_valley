@@ -1,0 +1,93 @@
+body {
+    background-image: url(pexels-jill-burrow-6387819.jpg);
+    background-repeat: no-repeat;
+    background-size: 1500px 1450px;
+
+}
+
+
+.h2 {
+    color: aliceblue;
+    font-family: fantasy;
+    font-size: 35px;
+    text-align: center;
+    border: 35px;
+    line-height: 50%;
+    padding-top: 30px;
+}
+
+.p1 {
+    color: saddlebrown;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: fantasy;
+    line-height: 100%;
+    padding-top: 100px;
+
+    text-align: center;
+
+
+}
+
+.img {
+    float: left;
+    margin: 15px 15px 0px 0px;
+    border-radius: 100px;
+    padding-left: 100px;
+
+
+}
+
+.img2 {
+    float: right;
+    margin: 15px 15px 0px 0px;
+    border-radius: 100px;
+    padding-right: 100px;
+    margin-top: 50px;
+
+}
+
+.p2 {
+    color: aliceblue;
+    font-family: fantasy;
+    font-weight: 900;
+    padding-right: 80px;
+    padding-top: 150px;
+    font-size: 20px;
+    padding-left: 30px;
+    margin-bottom: 30px;
+    line-height: 150%;
+
+
+}
+
+.img3 {
+    float: left;
+    margin: 15px 15px 0px 0px;
+    border-radius: 100px;
+    padding-left: 100px;
+
+
+}
+
+.p3 {
+
+    color: saddlebrown;
+    font-family: fantasy;
+    font-weight: 900;
+    font-size: 20px;
+    padding-top: 110px;
+    padding-right: 35px;
+    text-align: right
+}
+
+.p4 {
+    color: aliceblue;
+    font-family: fantasy;
+    font-size: 25px;
+    font-weight: 100;
+    padding-top: 50px;
+    padding-left: 32px;
+    text-align: left;
+}
+

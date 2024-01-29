@@ -1,0 +1,57 @@
+.li1 {
+    color: burlywood;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100px;
+    border-style: solid;
+    border-color: hotpink;
+    border-width: 12px;
+    border-radius: 15px;
+}
+
+#white {
+    color: bisque;
+    font-size: 28px;
+    font-family: fantasy;
+    cursor: pointer;
+
+}
+
+.li2 {
+    color: seagreen;
+    font-size: 25px;
+    border-style: solid;
+    border-image: fill;
+    border-radius: 10px;
+}
+
+.li3 {
+    color: linen;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+
+}
+
+.li4 {
+    color: greenyellow;
+    font-size: 35px;
+    border-style: dotted;
+    border-radius: 10px;
+    border-color: deeppink;
+    border-width: 10px;
+
+}
+
+.li5 {
+    color: thistle;
+    font-size: 25px;
+    font-style: inherit;
+    font-weight: 200px;
+    border-style: none;
+
+}
+
+body {
+    background-image: url(zvezdnoe_nebo_palmy_vetki_129195_1600x1200.jpeg);
+
+}

@@ -1,0 +1,151 @@
+.td {
+    padding-left: 7%;
+
+}
+
+.td2 {
+    padding-left: 10%;
+}
+
+.td3 {
+    padding-left: 8%;
+}
+
+.td4 {
+    padding-left: 9%;
+
+}
+
+.pv {
+    color: saddlebrown;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 50%;
+    text-align: center
+}
+
+.imag {
+    border-radius: 25%;
+    -webkit-animation: pulsing 15s infinite;
+    animation: pulsing 15s infinite;
+}
+@-webkit-keyframes pulsing {
+    0% {
+      -webkit-transform: scale(0.5, 0.5);
+      transform: scale(0.5, 0.5)
+    }
+    50% {
+      -webkit-transform: scale(1.0, 1.0);
+      transform: scale(1.0, 1.0);
+    }
+    100% {
+      -webkit-transform: scale(0.5, 0.5);
+      transform: scale(0.5, 0.5);
+    }
+  }
+
+.pv2 {
+    color: saddlebrown;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 50%;
+    text-align: center;
+    padding-left: 10%;
+ }
+
+.imag2 {
+    border-radius: 25%;
+   margin-left: 17%;
+    -webkit-animation: pulsing 15s infinite;
+    animation: pulsing 15s infinite;
+}
+@-webkit-keyframes pulsing {
+    0% {
+      -webkit-transform: scale(0.5, 0.5);
+      transform: scale(0.5, 0.5)
+    }
+    50% {
+      -webkit-transform: scale(1.0, 1.0);
+      transform: scale(1.0, 1.0);
+    }
+    100% {
+      -webkit-transform: scale(0.5, 0.5);
+      transform: scale(0.5, 0.5);
+    }
+  }
+
+
+
+.pv3 {
+    color: saddlebrown;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 50%;
+    text-align: center
+}
+
+.imag3 {
+    border-radius: 25%;
+    -webkit-animation: pulsing 15s infinite;
+    animation: pulsing 15s infinite;
+}
+@-webkit-keyframes pulsing {
+    0% {
+      -webkit-transform: scale(0.5, 0.5);
+      transform: scale(0.5, 0.5)
+    }
+    50% {
+      -webkit-transform: scale(1.0, 1.0);
+      transform: scale(1.0, 1.0);
+    }
+    100% {
+      -webkit-transform: scale(0.5, 0.5);
+      transform: scale(0.5, 0.5);
+    }
+  }
+
+
+
+.pv4 {
+    color: saddlebrown;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 50%;
+    text-align: center
+}
+
+.imag4 {
+    border-radius: 25%;
+    -webkit-animation: pulsing 15s infinite;
+    animation: pulsing 15s infinite;
+}
+@-webkit-keyframes pulsing {
+    0% {
+      -webkit-transform: scale(0.5, 0.5);
+      transform: scale(0.5, 0.5)
+    }
+    50% {
+      -webkit-transform: scale(1.0, 1.0);
+      transform: scale(1.0, 1.0);
+    }
+    100% {
+      -webkit-transform: scale(0.5, 0.5);
+      transform: scale(0.5, 0.5);
+    }
+  }
+.pv5{
+    color: black;
+    font-size: 30px;
+    font-family: fantasy;
+
+}
+.pv6{
+    color: saddlebrown;
+    font-weight: 400%;
+}
+
+
+body {
+    background-color: whitesmoke;
+
+}

@@ -1,0 +1,17 @@
+$size:64px;
+$red_color: red;
+$border_solid:solid;
+.main{
+    $size: 64px;
+    $red_color: red;
+    border: 1px $border_solid black;
+}
+
+header{color: blue;
+nav{color: red;}}
+header nav{}
+header .logo{}
+.logo img {}
+%test
+div {@extend %test}
+@mixin text-teg(){}

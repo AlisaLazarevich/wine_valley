@@ -1,0 +1,101 @@
+.blue {
+    min-width: 1400px;
+    height: 100px;
+    background-color: blue;
+    margin: 15px;
+
+}
+
+@media all and (max-width:1440px) {
+    .blue {
+
+        min-width: 1000px;
+    }
+}
+
+@media all and (max-width:1300px) {
+    .first {
+        background-color: green;
+        border: 1px solid blue;
+    }
+}
+
+@media all and (max-width:1000px) {
+    .first {
+        background-color: brown;
+        border: 1px solid blue;
+
+    }
+}
+
+@media all and (max-width:800px) {
+    .first {
+        background-color: yellow;
+        border: 1px solid blue;
+    }
+}
+
+@media all and (max-width:500px) {
+    .grid-block {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media all and (min-device-width:1000px) and (max-device-width:1200px) {
+    .first {
+        background-color: yellow;
+    }
+
+    .second {
+        background-color: aquamarine;
+    }
+}
+
+
+@media all and (min-device-width:800px) and (max-device-width:1000px) {
+    .first {
+        background-color: yellow;
+    }
+}
+
+.TEST1,
+h1,
+#id,
+.test2 {
+    background-color: red;
+}
+
+:is(.test1, h1, #id, .test2) {
+    background-color: red;
+}
+
+.header p:hover,
+.main p:hover,
+.footer p:hover,
+a p:hover {
+    background-color: red;
+}
+
+:is(.header, .main, .footer, a) p:hover {
+    background-color: red;
+}
+
+div div {}
+
+div p {}
+
+p p {}
+
+p div {}
+
+:is(div, p) :is(div, p) {}
+
+
+.title {
+    -webkit-color: red;
+    -moz-color: red;
+    -ms-color: red;
+    color: red;
+
+}

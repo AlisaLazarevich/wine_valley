@@ -1,0 +1,353 @@
+.body {}
+
+.head_style {}
+
+
+.continer_header {}
+
+
+.header_line {
+
+    margin: 0px 207px;
+    display: flex;
+    padding-top: 37px;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+
+
+.logo {
+    padding-top: 1px;
+
+}
+
+.logo_text {
+    color: #2C2C2C;
+    text-align: center;
+    font-family: Advent Pro;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-right: 145px;
+
+}
+
+.nav-item {
+    color: #000;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 41px;
+    margin-right: 64px;
+}
+
+.nav-item:hover {
+    color: gray;
+}
+
+.world_logo {
+    margin-right: 8px;
+}
+
+.language {
+    margin-right: 8px;
+
+}
+
+.header_title {
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-top: 85px;
+}
+
+.p_title {
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 41px;
+    margin-top: 24px;
+}
+
+.button {
+    display: flex;
+    padding: 15px 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    background: #C2FBD7;
+    width: 200px;
+    height: 34px;
+    box-shadow: 0px 16px 32px 0px rgba(44, 187, 99, 0.15), 0px 8px 16px 0px rgba(44, 187, 99, 0.15), 0px 4px 8px 0px rgba(44, 187, 99, 0.15), 0px 2px 4px 0px rgba(44, 187, 99, 0.15), 0px 1px 2px 0px rgba(44, 187, 99, 0.15), 0px -25px 18px -14px rgba(44, 187, 99, 0.20) inset;
+    position: relative;
+    margin-left: 590px;
+    margin-top: 34px;
+}
+
+.button1 {
+    color: #008000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.button1:hover {
+    color: rgba(45, 93, 45, 0.449);
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    fill: var(--Transparent, #FFF);
+    background-blend-mode: multiply;
+    margin-left: 8px;
+    padding-bottom: 5px;
+    position: absolute;
+
+}
+
+.main_style {}
+
+.main_head {
+    display: flex;
+    margin-top: 163px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main_title {
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 41px;
+
+}
+
+.continer_cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    gap: 24px;
+
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 280px;
+    height: 361px;
+    border-radius: 6px;
+    background: #FFF;
+    box-shadow: 0px 1px 3px 0px rgba(29, 30, 38, 0.10), 0px 3px 6px 0px rgba(29, 30, 38, 0.10);
+}
+
+.card_title {
+
+    color: #2C2C2C;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    justify-content: center;
+    text-align: center;
+    padding-top: 32px;
+}
+
+.feedback_head {
+    padding-top: 149px;
+
+
+}
+
+.feedback_title {
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 41px;
+
+}
+
+.digit {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 41px;
+}
+
+.feedbacks {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 24px;
+    column-gap: 24px;
+    position: absolute;
+    left: 273px;
+
+
+}
+
+.feedbacks2 {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    border-radius: 10px;
+    background: #F3F3F3;
+    width: 433px;
+    height: 99px;
+    position: static;
+
+
+
+}
+
+.figure2 {
+    border-radius: 51px;
+}
+
+.feedbacks_title {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.nav_footer {
+    padding-left: 162px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr 4fr);
+    grid-template-rows: 50% 50%;
+}
+
+.logo2 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    align-self: center;
+}
+
+.logo_text2 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    align-self: center;
+    color: #2C2C2C;
+    text-align: center;
+    font-family: Advent Pro;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-right: 145px;
+    padding-left: 100px;
+}
+
+.footer {
+    margin-top: 400px;
+}
+
+.nav2 {
+    display: flex;
+    position: absolute;
+    left: 644px;
+    gap: 64px;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    align-self: center;
+    color: #000;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 41px;
+    margin-top: 18px;
+
+
+}
+
+.nav3 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    align-self: center;
+    row-gap: 24px;
+    padding-left: 470px;
+    margin-top: 78px;
+    display: flex;
+    position: absolute;
+
+}
+
+.nav-item2 {
+    color: black;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+
+}
+
+@media all and (min-device-width: 558px) and (max-device-width:1388px) {
+    .header_line {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .button {
+        text-align: center;
+        background-color: #F3F3F3;
+    }
+
+    .card_title {
+        position: absolute;
+        padding-bottom: 200px;
+        background-color: #F3F3F3;
+    }
+    .feedbacks {
+        display: flex;
+        flex-direction: column;
+
+    }
+    .footer {
+        display: flex;
+        flex-direction: column;
+}

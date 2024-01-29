@@ -1,0 +1,83 @@
+.line1 {
+    color: ivory;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: 40px;
+    font-weight: 200px;
+    border-style: double;
+    border-radius: 100px;
+}
+
+.line2 {
+    border: 15px dashed pink;
+    color: azure;
+    font-size: 30px;
+}
+
+.line3 {
+    color: lavender;
+    text-decoration: dotted;
+    font-size: 40px;
+    cursor: grabbing;
+}
+
+.line4 {
+    color: yellow;
+    font-style: initial;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+
+}
+
+.line5 {
+    color: rgb(255, 30, 229);
+    font-size: 35px;
+    border-style: groove;
+    border-color: yellowgreen;
+    border-width: 15px;
+
+}
+
+.line6 {
+    color: gold;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.line7 {
+    color: darkgrey;
+    font-size: 25px;
+    font-weight: 100px;
+    cursor: copy;
+
+}
+
+.line8 {
+    color: azure;
+    font-family: fantasy;
+    font-size: 15px;
+    border: 10px dotted darkcyan;
+}
+
+.line9 {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+
+}
+
+.line10 {
+    color: chocolate;
+    font-size: 25px;
+    border-style: ridge;
+    border-color: darkseagreen;
+    border-width: 45px;
+    border-radius: 15px;
+}
+
+body {
+    background-color: darkviolet;
+
+
+}

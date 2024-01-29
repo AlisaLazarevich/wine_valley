@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            display: inline;
+        }
+
+        .red {
+
+            background-color: red;
+            width: 100px;
+            height: 150px;
+        }
+
+
+        .green {
+            background-color: green;
+            height: 200px;
+            width: 200px;
+            margin-left: 10px;
+        }
+
+        .violet {
+            background-color: violet;
+            height: 80px;
+            width: 100px;
+        }
+
+        .posts {
+            border: 1px solid black;
+            display: block;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="posts">
+        <div class="red"></div>
+        <div class="green"></div>
+        <div class="green" style="flex-grow:1; flex-shrink: 0" ;></div>
+        <div class="violet" style="flex-grow: 1;"></div>
+    </div>
+
+    <h1>Hello</h1>
+</body>
+
+</html>

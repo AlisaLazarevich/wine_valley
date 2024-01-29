@@ -1,0 +1,183 @@
+$black_color: black;
+$font-family: Times New Roman;
+$font-family: Alef;
+$font-style: normal;
+$line-height: normal;
+
+.stylepage {
+    background-color: aliceblue;
+    width: 832px;
+    height: 1280px;
+
+}
+
+.header {
+    color: #E71717;
+    $font-family: Alef;
+    font-size: 40px;
+    $font-style: normal;
+    font-weight: 200;
+    $line-height: normal;
+}
+
+.border {
+    border: 3px solid #EC14D6;
+    background: rgba(217, 217, 217, 0.00);
+    width: 120px;
+    height: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+%text {
+    color: #000;
+    font-family: Times New Roman;
+    font-style: normal;
+    line-height: normal;
+}
+.pclass {
+    @extend %text;
+    font-size: 20px;
+    font-weight: 700;
+}
+.pclass2 {
+    @extend %text;
+    font-size: 15px;
+    font-weight: 700;
+}
+.pclass3 {
+    @extend %text;
+    font-size: 13px;
+    font-weight: 400;
+}
+.pclass4 {
+    @extend %text;
+    font-size: 12px;
+    font-weight: 400;
+}
+.pclass5 {
+    @extend %text;
+    font-size: 35px;
+    font-weight: 400;
+}
+.pclass6 {
+    @extend %text;
+    font-size: 25px;
+    font-weight: 400;
+}
+.pclass7 {
+    @extend %text;
+    font-size: 15px;
+    font-weight: 400;
+}
+.distance {
+    margin-left: 45px;
+}
+
+@mixin circle_color($color) {
+    background-color: $background-color;
+    border-radius: 100%;
+    width: 46px;
+    height: 43px;
+}
+.circle {
+    @include circle_color(black);
+}
+.circle2 {
+    @include circle_color(#F40909);
+}
+.circle3 {
+    @include circle_color(#A09C9C);
+
+}
+.circle4 {
+    @include circle_color(#3C3535);
+
+}
+.circle5 {
+    @include circle_color (black)
+}
+
+%Icons_style {
+    width: 35px;
+    height: 33px;
+    background-repeat: no-repeat;
+    background-size: 35px 35px;
+}
+.Icons2 {
+    @extend %Icons_style;
+    background: url("icons8-лампочка-96.png");
+}
+.Icons3 {
+    @extend %Icons_style;
+    background: url("icons8-клавиатура-96.png");
+}
+.Icons4 {
+    @extend %Icons_style;
+    background: url("icons8-вспышка-96.png");
+}
+%icons_continer {
+width: 17px;
+    height: 17px;
+    background-repeat: no-repeat;
+    background-size: 17px 17px;
+}
+.iconsf {
+    background-image: url("icons8-facebook-24.png");
+    width: 17px;
+    height: 17px;
+    background-repeat: no-repeat;
+    background-size: 17px 17px;
+}
+
+.iconst {
+    background-image: url("icons8-twitter-24.png");
+    width: 17px;
+    height: 17px;
+    background-repeat: no-repeat;
+    background-size: 17px 17px;
+}
+
+.iconsg {
+    background-image: url("icons8-google-24.png");
+    width: 17px;
+    height: 17px;
+    background-repeat: no-repeat;
+    background-size: 17px 17px;
+}
+
+.iconsp {
+    background-image: url("icons8-pinterest-24.png");
+
+    width: 17px;
+    height: 17px;
+    background-repeat: no-repeat;
+    background-size: 17px 17px;
+}
+
+.iconsi {
+    background-image: url("icons8-instagram-24.png");
+
+    width: 17px;
+    height: 17px;
+    background-repeat: no-repeat;
+    background-size: 17px 17px;
+}
+
+.iconss {
+    background-image: url("icons8-stumbleupon-24.png");
+
+    width: 17px;
+    height: 17px;
+    background-repeat: no-repeat;
+    background-size: 17px 17px;
+}
+
+.iconsy {
+    background-image: url("icons8-youtube-live-24.png");
+
+    width: 17px;
+    height: 17px;
+    background-repeat: no-repeat;
+    background-size: 17px 17px;
+}

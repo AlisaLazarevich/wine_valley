@@ -1,0 +1,33 @@
+ .name_1 {
+     color: brown;
+     padding-left: 30px;
+
+ }
+
+ .name2 {
+     border: 15px blueviolet;
+     padding-bottom: 30px;
+
+ }
+
+ .name3 {
+     border: 15px solid coral;
+     padding-left: 40px;
+     padding-top: 40px;
+ }
+
+ .name4 {
+     border: 15px darkblue;
+     padding-right: 50px;
+ }
+
+ .name5 {
+     border: 15px darkblue;
+     padding-right: 50px;
+ }
+
+ .name6 {color:blue; padding-bottom: 15px;
+    border-style: double;
+
+ }
+ .name7 {color: aqua; padding-left: 35px; border-style: groove;}

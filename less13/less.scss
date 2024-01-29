@@ -1,0 +1,48 @@
+main {
+    color: blueviolet;
+    .catalog{
+        color:aqua;
+        .&-item{
+            color: hsla(hue, saturation, lightness, alpha);
+        }
+    }
+#gallery{
+    &_item{
+
+    }
+}
+}
+button{
+    background-color: blue;
+}
+&:hover{
+    background-color: red;
+}
+//комент
+/*
+не менять */
+@mixin xMax($sizeNumber)
+{
+    @media all and  (max-width: nth(500px, 8000px, 1000px,$sizeNumber)){
+
+    };
+        
+    }
+}
+    @include xMax(3)
+$ переменные 
+$text-size: (
+    small:20px, 
+    medium:40px,
+    big:60px,
+);
+.text{
+    @each $key, $value in {
+        &-#{$key} {
+            font-size:$value;
+        }
+    }
+    @if $color==blue{
+        
+    }
+}

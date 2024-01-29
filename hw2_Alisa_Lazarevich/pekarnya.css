@@ -1,0 +1,165 @@
+.h1_welcome {
+    width: 100%;
+    padding-left: 180px;
+    margin-bottom: 25px;
+    font-family: fantasy;
+    font-size: 50px;
+    cursor: pointer;
+    background-color: red;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 100%;
+    background-image: linear-gradient(45deg,
+            red 33%,
+            greenyellow 33%,
+            greenyellow 40%,
+            yellow 40%,
+            yellow 47%,
+            darkblue 47%,
+            darkblue 54%,
+            violet 54%,
+            violet 61%,
+            orange 61%,
+            orange 68%,
+            white 68%);
+    animation: text-animate-rev 1s ease forwards;
+
+
+}
+
+.text-color:hover {
+    animation: text-animate 20s ease-in forwards;
+}
+
+@keyframes text-animate-rev {
+    0% {
+        background-size: 650%;
+    }
+
+    40% {
+        background-size: 650%;
+    }
+
+    100% {
+        background-size: 100%;
+    }
+}
+
+@keyframes text-animate {
+    0% {
+        background-size: 100%;
+    }
+
+    80% {
+        background-size: 650%;
+    }
+
+    100% {
+        background-size: 650%;
+    }
+
+}
+
+.p {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: left;
+    scroll-padding-right: 150px;
+    padding-left: 20%;
+
+}
+
+.p2 {
+    color: black;
+    font-size: 25px;
+    font-family: fantasy;
+    padding-left: 20px;
+
+}
+
+.link1 {
+
+    font-family: fantasy;
+    text-align: center;
+    font-size: 35px;
+    padding-left: 40px;
+    text-shadow:
+        1px 1px 0 orange,
+        1px -1px 0 orange,
+        -1px 1px 0 orange,
+        -1px -1px 0 orange;
+    color: white;
+    transition: all 1s;
+}
+
+.link1:hover {
+    text-shadow:
+        1px 1px 0 yellowgreen,
+        1px -1px 0 yellowgreen,
+        -1px 1px 0 yellowgreen,
+        -1px -1px 0 yellowgreen;
+}
+
+
+
+.link2 {
+
+    font-family: fantasy;
+    text-align: center;
+    font-size: 35px;
+    padding-left: 40px;
+    text-shadow:
+        1px 1px 0 orange,
+        1px -1px 0 orange,
+        -1px 1px 0 orange,
+        -1px -1px 0 orange;
+    color: white;
+    transition: all 1s;
+}
+
+.link2:hover {
+    text-shadow:
+        1px 1px 0 yellowgreen,
+        1px -1px 0 yellowgreen,
+        -1px 1px 0 yellowgreen,
+        -1px -1px 0 yellowgreen;
+}
+
+
+
+
+.link3 {
+
+    font-family: fantasy;
+    text-align: center;
+    font-size: 35px;
+    padding-left: 40px;
+    text-shadow:
+        1px 1px 0 orange,
+        1px -1px 0 orange,
+        -1px 1px 0 orange,
+        -1px -1px 0 orange;
+    color: white;
+    transition: all 1s;
+}
+
+.link3:hover {
+    text-shadow:
+        1px 1px 0 yellowgreen,
+        1px -1px 0 yellowgreen,
+        -1px 1px 0 yellowgreen,
+        -1px -1px 0 yellowgreen;
+}
+
+.link4 {
+    line-height: 750%;
+}
+
+body {
+    background-image: url("cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA5L3Jhd3BpeGVsX29mZmljZV8yMl9waG90b19vZl9iYWtlcnlfYW5kX3Bhc3RyeV9vbl90aGVfbWFyYmxlX3Bob18wMjUxZmY1Yy1lZjhlLTQwMmUtODA4Mi00YTNjMGZjZGZmYzZfMS5qcGc.jpg.webp");
+    background-repeat: no-repeat;
+    background-size: 800px 600px;
+    background-position: right;
+    background-color: rgba(255, 255, 0, 0.137);
+}

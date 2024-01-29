@@ -1,0 +1,79 @@
+.red {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.white {
+    background-color: aliceblue;
+    height: 50px;
+    width: 100px;
+    position: absloute;
+    top: 200px;
+    left: 0px;
+}
+
+.blue {
+    background-color: blue;
+    height: 75px;
+    width: 250px;
+    position: absolute;
+    top: 250px;
+    left: 0;
+
+
+}
+
+
+
+
+.red2 {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+
+    position: absolute;
+    top: 500px;
+    left: 0;
+}
+
+.white2 {    background-color: aliceblue;
+    height: 50px;
+    width: 100px;
+    position: absloute;
+    top: 200px;
+    left: 0px;}
+
+
+.blue2 {
+    background-color: blue;
+    height: 700px;
+    width: 700px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+.red3 {
+    background-color: red;
+    height: 500px;
+    width: 500px;
+    top: 0%;
+    left: 100%;
+
+}
+
+.white3 {
+    background-color: white;
+    height: 500px;
+    width: 500px;
+    top: 100%;
+    left: 100%;
+
+}
+
+.blue3 {}

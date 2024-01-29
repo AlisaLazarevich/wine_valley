@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="table.css">
+</head>
+
+<body>
+    <div>
+        <form class="main">
+            <input type="text" autocomplete value="Плейсхолдер" />
+            <input type="text" autocomplete value="Value" />
+            <input type="text" autocomplete value="disabled" disabled />
+            <input type="password" autocomplete value="1342524354" />
+            <textarea>Введите текст
+ </textarea>
+            <input type="submit" value="кнопка через тег input" />
+            <button> кнопка через тег button</button>
+            <input placeholder="Плейсхолдер"><label></label>
+            <input type="submit" value="Отправить на сервер" />
+        </form>
+    </div>
+    <div>
+        <form class="main2">
+
+            <p><input type="checkbox" /><label> Это метка для чекбокса:нажмите на меня- чекбокс сменяет галочку
+                </label></p>
+            <div><input type="checkbox" checked /> <label> Я отмечен по умолчанию </label>
+            </div>
+            <div> <input type="checkbox" disabled /> <label> Я disabled </label></div>
+            <fieldset class="type">
+                <p>Это группа радиокнопок - только одна из них может быть отменена! </p>
+                <p><input type="radio" name="radio" value="yes" />Эта метка для радио</p>
+                <p><input type="radio" name="radio" value="yes" />Эта метка для радио</p>
+            </fieldset>
+            <div class="submit">
+                <input type="submit" value="Отправить на сервер" />
+            </div>
+        </form>
+
+        <form class="main3">
+           <p><select name="cities">
+                <option value="new-yrk">Нью-Йорк</option>
+            </select></p>
+
+          <p><select multiple name="cities2">
+                <option value="new-yrk">Нью-Йорк</option>
+                <option value="kiev">Киев</option>
+                <option value="moscow">Москва</option>
+            </select></p>
+            <p><select multiple name="cities3">
+                <option value="Vr">Варшава</option>
+                <option selected value="new-yrk">Нью-Йорк</option>
+                <option value="kiev">Киев</option>
+                <option value="moscow">Москва</option>
+                <option value="minsk">Минск</option>
+            </select></p>
+            <div class="submit">
+                <button type="submit">Отправить на сервер</button>
+            </div>
+
+
+
+
+
+
+        </form>
+    </div>
+
+
+
+
+
+    </form>
+
+</body>
+
+</html>

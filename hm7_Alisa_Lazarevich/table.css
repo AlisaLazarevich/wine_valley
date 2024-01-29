@@ -1,0 +1,40 @@
+ .main {
+     display: flex;
+
+     flex-direction: column;
+     width: 300px;
+     line-height: 20%;
+ }
+
+ .main2 {
+     display: flex;
+
+     flex-direction: column;
+     width: 500px;
+     line-height: 20%;
+
+
+
+ }
+
+ .type {
+     text-align: left;
+     height: 120px;
+     width: 500px;
+ }
+
+ .submit {
+     width: 150px;
+ }
+
+ .main3 {
+     display: flex;
+     width: 400px;
+ }
+.cities2::-webkit-scrollbar{
+    width: 12px;
+}
+ .cities3::-webkit-scrollbar{
+    width:12px; 
+ }
+ 

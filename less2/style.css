@@ -1,0 +1,41 @@
+h1 {color : red;
+    font-size 60px;
+} 
+.h1_purple {
+    color: purple;
+    font-size: 54px;
+}
+#blue {color: blue;
+    font-size: 45px;
+}
+    p {color : blue;
+    font-size: 32px;} 
+    h1 {
+        color:green;
+        font-size: 54px;
+        font-family: 'Times New Roman', Times, serif;
+        font: weight 100;
+
+        border-style: double;
+        border-color: red;
+        border-width: 24px;
+        border-radius: 10px;
+        
+        border:1px dashed blue;
+
+        text-align: center;
+        cursor: pointer;
+        background-color: chartreuse;
+
+    }
+a {color: black;
+text-decoration: none;
+}
+body
+{background-image: url(вставляем фон ввиде картинки);
+ background-repeat: no-repeat;
+ background-size: 400px 100px;
+ background-position: center;
+ background-color:transparent;
+ background-clip:text;
+}
